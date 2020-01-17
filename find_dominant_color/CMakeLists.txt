@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( dom_col )
+find_package( OpenCV REQUIRED )
+add_executable( dom_col dom_col.cpp )
+target_link_libraries( dom_col ${OpenCV_LIBS} )
