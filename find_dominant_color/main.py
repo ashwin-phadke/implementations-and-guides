@@ -8,6 +8,12 @@ from werkzeug.utils import secure_filename
 
 ALLOWED_EXTENSIONS = set(['txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'])
 
+UPLOAD_FOLDER = '/abc/ai_shack/uploads'
+
+app = Flask(__name__)
+app.secret_key = "secret key"
+app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024
 
 def allowed_file(filename):
 	return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
@@ -30,7 +36,6 @@ def upload_file():
 		if file and allowed_file(file.filename):
 			filename = secure_filename(file.filename)
 			file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
-			#p = Popen(['/home/ashwinphadke/Documents/ai_shack/dominant_colors', 'file', '3'])
 			p = Popen(['/abc/dominant_colors', os.path.join(app.config['UPLOAD_FOLDER'], filename), '3'])
 			flash('File successfully uploaded')
 			return redirect('/')
