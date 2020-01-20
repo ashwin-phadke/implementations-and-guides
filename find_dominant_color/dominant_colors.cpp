@@ -1,8 +1,17 @@
 #include <stdio.h>
+#include <opencv2/opencv.hpp>
+#include <opencv2/core.hpp>
 #include <queue>
-
+#include <opencv2/opencv.hpp>
 
 using namespace std;
+
+struct find_dominant_colors_result {
+    std::vector<cv::Vec3b> colors;
+    cv::Mat quantized;
+    cv::Mat viewable;
+    cv::Mat dom;
+};
 
 
 
@@ -268,8 +277,8 @@ t_color_node* get_max_eigenvalue_node(t_color_node *current) {
     return ret;
 }
 
-find_dominant_colors(cv::Mat img, int count) {
-    
+find_dominant_colors_result find_dominant_colors(cv::Mat img, int count) {
+    find_dominant_colors_result result;
     const int width = img.cols;
     const int height = img.rows;
 
@@ -326,12 +335,12 @@ int main(int argc, char* argv[]) {
         return 2;
     }
 
-    std::vector<cv::Vec3b> colors = find_dominant_colors(matImage, count);
-    
+    //std::vector<cv::Vec3b> colors = find_dominant_colors(matImage, count);
+    //std::tuple<cv::Mat, cv::Mat, cv::Mat, cv::Vec3b> = find_dominant_colors(matImage, count);
+    find_dominant_colors_result x = find_dominant_colors(matImage, count);
+
     return 0;
 }
 
 
-
-
-#Credits - AIShack, Frey(StackOverflow), GrownUp(StackOverflow)
+//Credits - AIShack, Frey and GrownUp(Stack Overflow)
