@@ -247,10 +247,31 @@ size : size of kernel used in sobel(accuracy)
         if(*current==64)
             *current = 255;
     }
-    
+    cv::imwrite("./edgedetectedimage.png", returnImg);
     return returnImg;
 }
 
+
+
+
+int main(int argc, char* argv[]) {
+   
+    int upperThreshold;
+    int lowerThreshold;
+    double size = 3;
+    // if(argc<3) {
+    //     printf("Usage: %s <image> <count>\n", argv[0]);
+    //     return 0;
+    // }
+
+    // Load the file
+    char* filename = argv[1];
+    cv::Mat src = cv::imread(filename);
+
+    if(!src.data) {
+        printf("Unable to open the file: %s\n", filename);
+        return 1;
+    }
 
 
 
