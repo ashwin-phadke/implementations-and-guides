@@ -1,5 +1,4 @@
 #include <stdio.h>
-//#include <iostream.h>
 #include <stdio.h>
 #include <opencv2/opencv.hpp>
 #include <opencv2/core.hpp>
@@ -34,7 +33,28 @@ size : size of kernel used in sobel(accuracy)
     cv::Mat direction = cv::Mat(workImg.rows, workImg.cols, CV_32F);
     cv::divide(magY, magX, direction);
 
-  
+    //Magnitude of gradient per pixel
+    cv::Mat sum = cv::Mat(workImg.rows, workImg.cols, CV_64F);
+    cv::Mat prodX = cv::Mat(workImg.rows, workImg.cols, CV_64F);
+    cv::Mat prodY = cv::Mat(workImg.rows, workImg.cols, CV_64F);
+    cv::multiply(magX, magX, prodX);
+    cv::multiply(magY, magY, prodY);
+    sum = prodX + prodY;
+    cv::sqrt(sum, sum);
+
+    //applying NMS
+    cv::Mat returnImg = cv::Mat(src.rows, src.cols, CV_8U);
+
+    returnImg.setTo(cv::Scalar(0));         // Initialie image to return to zero
+
+    // Initialize iterators
+    cv::MatIterator_<float>itMag = sum.begin<float>();
+    cv::MatIterator_<float>itDirection = direction.begin<float>();
+
+    cv::MatIterator_<unsigned char>itRet = returnImg.begin<unsigned char>();
+
+    cv::MatIterator_<float>itend = sum.end<float>();
+
     //go through each pixel 
 
     for(;itMag!=itend;++itDirection, ++itRet, ++itMag)
@@ -130,7 +150,21 @@ size : size of kernel used in sobel(accuracy)
                     }
                 }
 
-                
+                else if(currentDirection>67.5 && currentDirection <= 112.5)
+                {
+                    if(pos.x>0)
+                    {
+                        if(lowerThreshold<=sum.at<float>(cv::Point(pos.x-1, pos.y)) &&
+                        returnImg.at<unsigned char>(pos.y, pos.x-1)!=64 &&
+                        direction.at<float>(pos.y, pos.x-1) > 67.5 &&
+                        direction.at<float>(pos.y, pos.x-1) <= 112.5 &&
+                        sum.at<float>(pos.y, pos.x-1) > sum.at<float>(pos.y-1, pos.x-1) &&
+                        sum.at<float>(pos.y, pos.x-1) > sum.at<float>(pos.y+1, pos.x-1))
+                        {
+                            returnImg.ptr<unsigned char>(pos.y, pos.x-1)[0] = 255;
+                            imageChanged = true;
+                        }
+                    }
                     if(pos.x<workImg.cols-1)
                     {
                         if(lowerThreshold<=sum.at<float>(cv::Point(pos.x+1, pos.y)) &&
@@ -206,6 +240,7 @@ size : size of kernel used in sobel(accuracy)
             }
         }
     }
+
     cv::MatIterator_<unsigned char>current = returnImg.begin<unsigned char>();    cv::MatIterator_<unsigned char>final = returnImg.end<unsigned char>();
     for(;current!=final;++current)
     {
