@@ -1,4 +1,5 @@
 #include <stdio.h>
+//#include <iostream.h>
 #include <stdio.h>
 #include <opencv2/opencv.hpp>
 #include <opencv2/core.hpp>
@@ -240,7 +241,6 @@ size : size of kernel used in sobel(accuracy)
             }
         }
     }
-
     cv::MatIterator_<unsigned char>current = returnImg.begin<unsigned char>();    cv::MatIterator_<unsigned char>final = returnImg.end<unsigned char>();
     for(;current!=final;++current)
     {
@@ -273,11 +273,14 @@ int main(int argc, char* argv[]) {
         return 1;
     }
 
+    
 
+    //std::vector<cv::Vec3b> colors = find_dominant_colors(matImage, count);
+    //std::tuple<cv::Mat, cv::Mat, cv::Mat, cv::Vec3b> = find_dominant_colors(matImage, count);
+    cv::Mat result = MyCanny(src,  upperThreshold,  lowerThreshold,  size = 3);
 
+    return 1;
+}
 
-
-
-//Credits : aishack, frey(stackoverflow)
 
 
