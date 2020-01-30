@@ -1,6 +1,4 @@
 #include <stdio.h>
-//#include <iostream.h>
-#include <stdio.h>
 #include <opencv2/opencv.hpp>
 #include <opencv2/core.hpp>
 #include <queue>
@@ -46,7 +44,8 @@ size : size of kernel used in sobel(accuracy)
     //applying NMS
     cv::Mat returnImg = cv::Mat(src.rows, src.cols, CV_8U);
 
-    returnImg.setTo(cv::Scalar(0));         // Initialie image to return to zero
+    // Initialie image to return to zero
+    returnImg.setTo(cv::Scalar(0));         
 
     // Initialize iterators
     cv::MatIterator_<float>itMag = sum.begin<float>();
@@ -259,11 +258,6 @@ int main(int argc, char* argv[]) {
     int upperThreshold;
     int lowerThreshold;
     double size = 3;
-    // if(argc<3) {
-    //     printf("Usage: %s <image> <count>\n", argv[0]);
-    //     return 0;
-    // }
-
     // Load the file
     char* filename = argv[1];
     cv::Mat src = cv::imread(filename);
@@ -273,10 +267,6 @@ int main(int argc, char* argv[]) {
         return 1;
     }
 
-    
-
-    //std::vector<cv::Vec3b> colors = find_dominant_colors(matImage, count);
-    //std::tuple<cv::Mat, cv::Mat, cv::Mat, cv::Vec3b> = find_dominant_colors(matImage, count);
     cv::Mat result = MyCanny(src,  upperThreshold,  lowerThreshold,  size = 3);
 
     return 1;
