@@ -8,4 +8,4 @@
 
 * Canny Edge Detection : [Repository](https://github.com/ashwin-phadke/implementations-and-guides/tree/master/canny_edge_detection) | [Wiki](https://github.com/ashwin-phadke/implementations-and-guides/wiki/Canny-Edge-detection)
 
-* Geeting started with SQL Server and Azure data studio on Linux : [Wiki](https://github.com/ashwin-phadke/implementations-and-guides/wiki/Getting-started-with-SQL-server-on-Linux-(using-Azure-data-studio)
+* Geeting started with SQL Server and Azure data studio on Linux : [Wiki](https://github.com/ashwin-phadke/implementations-and-guides/wiki/Getting-started-with-SQL-server-on-Linux-(using-Azure-data-studio))
