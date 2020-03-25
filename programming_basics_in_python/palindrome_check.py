@@ -1,3 +1,5 @@
+#Implementation to check whether the number is palindrome or not.
+
 #function to check whether the number is palindrome or not
 def check_palindrome():
     #get input from user 
@@ -13,12 +15,12 @@ def check_palindrome():
     else:
         print("Well, why not try again")
 
-#just a welcome
-print("Hello World")
-
-#execute the function
-check_palindrome()
 
 
+if __name__ == '__main__' :
 
+    # #just a welcome
+    # print("Hello World")
 
+    #execute the function
+    check_palindrome()
