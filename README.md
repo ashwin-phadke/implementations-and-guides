@@ -13,3 +13,7 @@ More will be added later.
 * Canny Edge Detection : [Repository](https://github.com/ashwin-phadke/implementations-and-guides/tree/master/canny_edge_detection) | [Wiki](https://github.com/ashwin-phadke/implementations-and-guides/wiki/Canny-Edge-detection)
 
 * Geeting started with SQL Server and Azure data studio on Linux : [Wiki](https://github.com/ashwin-phadke/implementations-and-guides/wiki/Getting-started-with-SQL-server-on-Linux-(using-Azure-data-studio))
+
+* Coding basics in python : [Code](https://github.com/ashwin-phadke/implementations-and-guides/tree/master/programming_basics_in_python)
+  * Check if a number is palindrome or not : [Code](https://github.com/ashwin-phadke/implementations-and-guides/blob/master/programming_basics_in_python/palindrome_check.py)
+  * Check if a number is a perfect square : [Code](https://github.com/ashwin-phadke/implementations-and-guides/blob/master/programming_basics_in_python/perfect_Square.py)
