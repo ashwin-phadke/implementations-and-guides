@@ -17,3 +17,4 @@ More will be added later.
 * Coding basics in python : [Code](https://github.com/ashwin-phadke/implementations-and-guides/tree/master/programming_basics_in_python)
   * Check if a number is palindrome or not : [Code](https://github.com/ashwin-phadke/implementations-and-guides/blob/master/programming_basics_in_python/palindrome_check.py)
   * Check if a number is a perfect square : [Code](https://github.com/ashwin-phadke/implementations-and-guides/blob/master/programming_basics_in_python/perfect_Square.py)
+  * Find the maximum number from an array : [Code](https://github.com/ashwin-phadke/implementations-and-guides/blob/master/programming_basics_in_python/max_element_of_array.py)
