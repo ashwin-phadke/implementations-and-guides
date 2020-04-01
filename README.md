@@ -14,6 +14,8 @@ More will be added later.
 
 * Geeting started with SQL Server and Azure data studio on Linux : [Wiki](https://github.com/ashwin-phadke/implementations-and-guides/wiki/Getting-started-with-SQL-server-on-Linux-(using-Azure-data-studio))
 
+* Use Microsoft SQL server docker container with Azure Data Studio : Contributed by - [Dhiraj Shrotri](https://github.com/dhirajshrotri) | [Wiki](https://github.com/ashwin-phadke/implementations-and-guides/wiki/Use-Microsoft-SQL-server-docker-container-with-Azure-Data-Studio)
+
 * Coding basics in python : [Code](https://github.com/ashwin-phadke/implementations-and-guides/tree/master/programming_basics_in_python)
   * Check if a number is palindrome or not : [Code](https://github.com/ashwin-phadke/implementations-and-guides/blob/master/programming_basics_in_python/palindrome_check.py)
   * Check if a number is a perfect square : [Code](https://github.com/ashwin-phadke/implementations-and-guides/blob/master/programming_basics_in_python/perfect_Square.py)
