@@ -12,9 +12,14 @@ More will be added later.
 
 * Canny Edge Detection : [Repository](https://github.com/ashwin-phadke/implementations-and-guides/tree/master/canny_edge_detection) | [Wiki](https://github.com/ashwin-phadke/implementations-and-guides/wiki/Canny-Edge-detection)
 
-* Geeting started with SQL Server and Azure data studio on Linux : [Wiki](https://github.com/ashwin-phadke/implementations-and-guides/wiki/Getting-started-with-SQL-server-on-Linux-(using-Azure-data-studio))
+* Getting started with SQL Server and Azure data studio on Linux : [Wiki](https://github.com/ashwin-phadke/implementations-and-guides/wiki/Getting-started-with-SQL-server-on-Linux-(using-Azure-data-studio))
+
+* Use Microsoft SQL server docker container with Azure Data Studio : Contributed by - [Dhiraj Shrotri](https://github.com/dhirajshrotri) | [Wiki](https://github.com/ashwin-phadke/implementations-and-guides/wiki/Use-Microsoft-SQL-server-docker-container-with-Azure-Data-Studio)
 
 * Coding basics in python : [Code](https://github.com/ashwin-phadke/implementations-and-guides/tree/master/programming_basics_in_python)
   * Check if a number is palindrome or not : [Code](https://github.com/ashwin-phadke/implementations-and-guides/blob/master/programming_basics_in_python/palindrome_check.py)
   * Check if a number is a perfect square : [Code](https://github.com/ashwin-phadke/implementations-and-guides/blob/master/programming_basics_in_python/perfect_Square.py)
   * Find the maximum number from an array : [Code](https://github.com/ashwin-phadke/implementations-and-guides/blob/master/programming_basics_in_python/max_element_of_array.py)
+
+* Computer Vision using OpenCV : [Code](https://github.com/ashwin-phadke/implementations-and-guides/tree/master/computer_vision_using_opencv)
+  * Access camera : [Python](https://github.com/ashwin-phadke/implementations-and-guides/blob/master/computer_vision_using_opencv/access_camera.py)
