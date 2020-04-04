@@ -1,5 +1,6 @@
 import cv2
 import argparse
+import time
 
 # FUnction to access camera using camera ID provided by the user
 def access_camera(cam_id):
@@ -21,13 +22,20 @@ def access_camera(cam_id):
         ret : return True if the frame is available from the camera reading operation below.
         frame : array of frames as it loops.
         """
+        start_time = time.time()
         ret, frame = cap.read()
 
         # Resizing window to save resources and have defined window
         cv2.resize(frame, (640,480))
+        
+        # FPS = 1 / time to process loop
+        fps = 1.0 / (time.time() - start_time)
+        print("FPS: ", fps ) 
+        # fps = cv2.VideoCapture.get(CV_CAP_PROP_FPS)
+        # print(fps)
 
-        fps = cv2.VideoCapture.get(CV_CAP_PROP_FPS)
-        print(fps)
+        cv2.putText(frame,"FPS: {}".format(fps), (100,100), cv2.FONT_HERSHEY_SIMPLEX, 2, 255)
+
         # Display the result
         cv2.imshow("output", frame)
 
@@ -35,7 +43,7 @@ def access_camera(cam_id):
         check = cv2.waitKey(1)
         if check == 27:
             break
-
+        
     # Release the camera resource   
     cap.release()
 
