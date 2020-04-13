@@ -20,6 +20,7 @@ More will be added later.
   * Check if a number is palindrome or not : [Code](https://github.com/ashwin-phadke/implementations-and-guides/blob/master/programming_basics_in_python/palindrome_check.py)
   * Check if a number is a perfect square : [Code](https://github.com/ashwin-phadke/implementations-and-guides/blob/master/programming_basics_in_python/perfect_Square.py)
   * Find the maximum number from an array : [Code](https://github.com/ashwin-phadke/implementations-and-guides/blob/master/programming_basics_in_python/max_element_of_array.py)
+   * Reverse array : [Code](https://github.com/ashwin-phadke/implementations-and-guides/blob/a269fc5824fc87ca521c78bac872364a459e0d9f/programming_basics_in_python/reverse_array.py)
 
 * Computer Vision using OpenCV : [Code](https://github.com/ashwin-phadke/implementations-and-guides/tree/master/computer_vision_using_opencv)
   * Access camera : [Python](https://github.com/ashwin-phadke/implementations-and-guides/blob/master/computer_vision_using_opencv/access_camera.py)
