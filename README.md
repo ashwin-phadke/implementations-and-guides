@@ -17,7 +17,7 @@ More will be added later.
 * Use Microsoft SQL server docker container with Azure Data Studio : Contributed by - [Dhiraj Shrotri](https://github.com/dhirajshrotri) | [Wiki](https://github.com/ashwin-phadke/implementations-and-guides/wiki/Use-Microsoft-SQL-server-docker-container-with-Azure-Data-Studio)
 
 * Coding basics in python : [Code](https://github.com/ashwin-phadke/implementations-and-guides/tree/master/programming_basics_in_python)
-  * Check if a number is palindrome or not : [Code](https://github.com/ashwin-phadke/implementations-and-guides/blob/master/programming_basics_in_python/palindrome_check.py)
+  * Check if a number is palindrome or not : [Code](https://github.com/ashwin-phadke/implementations-and-guides/blob/master/programming_basics_in_python/palindrome_check.py) | Flask App [Code](https://github.com/ashwin-phadke/implementations-and-guides/tree/master/programming_basics_in_python/paliindrome_checker)
   * Check if a number is a perfect square : [Code](https://github.com/ashwin-phadke/implementations-and-guides/blob/master/programming_basics_in_python/perfect_Square.py)
   * Find the maximum number from an array : [Code](https://github.com/ashwin-phadke/implementations-and-guides/blob/master/programming_basics_in_python/max_element_of_array.py)
    * Reverse array : [Code](https://github.com/ashwin-phadke/implementations-and-guides/blob/a269fc5824fc87ca521c78bac872364a459e0d9f/programming_basics_in_python/reverse_array.py)
