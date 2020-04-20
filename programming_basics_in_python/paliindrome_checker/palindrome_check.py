@@ -1,6 +1,7 @@
 #Implementation to check whether the number is palindrome or not.
 from flask import Flask
 from flask import request
+from flask import url_for
 import os
 #import magic
 import urllib.request
@@ -35,15 +36,19 @@ def check_palindrome():
         if inp_num[::] == inp_num[::-1]:
 
         #if the reversed number matches original it is palinrome
-            abc = "Voila! It is palindrome"
+            #abc = "Voila! It is palindrome"
             print("Voila! It is palindrome")
-            return render_template('results.html', abc=abc)
+            flash("Voila! It is palindrome")
             
-        #else not
+            return redirect(url_for('check_palindrome'))
+            #return render_template('results.html', abc=abc)
+
         else:
-            msg = "Beep Bop, Well, why not try again with an actual palindrome!!!"
+            
             print("Well, why not try again")
-            return render_template('results.html', abc=msg)
+            flash("Beep Bop, Well, why not try again with an actual palindrome!!!")
+            return redirect(url_for('check_palindrome'))
+            #return render_template('results.html', abc=msg)
     else:
         return render_template(upload_form)
 
