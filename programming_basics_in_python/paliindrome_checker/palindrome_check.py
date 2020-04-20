@@ -35,11 +35,15 @@ def check_palindrome():
         if inp_num[::] == inp_num[::-1]:
 
         #if the reversed number matches original it is palinrome
+            abc = "Voila! It is palindrome"
             print("Voila! It is palindrome")
+            return render_template('results.html', abc=abc)
             
         #else not
         else:
+            msg = "Beep Bop, Well, why not try again with an actual palindrome!!!"
             print("Well, why not try again")
+            return render_template('results.html', abc=msg)
     else:
         return render_template(upload_form)
 
