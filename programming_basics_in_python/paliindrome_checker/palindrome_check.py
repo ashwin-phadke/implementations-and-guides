@@ -3,26 +3,27 @@ from flask import Flask
 from flask import request
 from flask import url_for
 import os
-#import magic
+
 import urllib.request
 from subprocess import Popen
-#from webapp import app
+
 from flask import Flask, flash, request, redirect, render_template
 from werkzeug.utils import secure_filename
+
+# Define the flask app
 app = Flask(__name__)
-app.secret_key = "secret key"
-#function to check whether the number is palindrome or not
+app.secret_key = "dev"
 
-
+# Main template
 @app.route('/')
 def upload_form():
 	return render_template('upload.html')
 
-
+# Function that checks whether the given number is alindrome or not
 @app.route('/', methods=['GET', 'POST'])
 def check_palindrome():
-    #get input from user 
-
+    
+    #get input from user from the form
     if request.method == 'POST':
         number = None
         try:
@@ -30,9 +31,10 @@ def check_palindrome():
         except Exception as e:
             print(e)
       
-        
+        # Assign to the local variable
         inp_num = number
-    #check the entire number by reversing it in the list.
+        
+        #check the entire number by reversing it in the list.
         if inp_num[::] == inp_num[::-1]:
 
         #if the reversed number matches original it is palinrome
@@ -54,6 +56,6 @@ def check_palindrome():
 
 
 
-
+# Run the app.
 if __name__ == "__main__":
     app.run(port=5555, debug=True)
