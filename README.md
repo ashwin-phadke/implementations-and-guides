@@ -25,5 +25,5 @@ More will be added later.
 * Computer Vision using OpenCV : [Code](https://github.com/ashwin-phadke/implementations-and-guides/tree/master/computer_vision_using_opencv)
   * Access camera : [Python](https://github.com/ashwin-phadke/implementations-and-guides/blob/master/computer_vision_using_opencv/access_camera.py)
   
- * Machine Learning Concepts : 
-  * Confusion Matrix : Understanding it the simple way [Wiki](https://github.com/ashwin-phadke/implementations-and-guides/wiki/%5BML%5D-Confusion-Matrix-:-Understanding-it-the-simple-way)
+* Machine Learning Concepts : 
+  * Confusion Matrix : Understanding it the simple way - ongoing [Wiki](https://github.com/ashwin-phadke/implementations-and-guides/wiki/%5BML%5D-Confusion-Matrix-:-Understanding-it-the-simple-way)
