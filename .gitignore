@@ -69,3 +69,4 @@ find_dominant_color/classification.png
 find_dominant_color/CMakeLists.txt
 find_dominant_color/dominant_colors
 programming_basics_in_python/paliindrome_checker/__pycache__/palindrome_check.cpython-37.pyc
+canny_edge_detection/canny_edge_detection
