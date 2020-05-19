@@ -22,8 +22,9 @@ More will be added later.
   * Find the maximum number from an array : [Code](https://github.com/ashwin-phadke/implementations-and-guides/blob/master/programming_basics_in_python/max_element_of_array.py)
    * Reverse array : [Code](https://github.com/ashwin-phadke/implementations-and-guides/blob/a269fc5824fc87ca521c78bac872364a459e0d9f/programming_basics_in_python/reverse_array.py)
 
-* Computer Vision using OpenCV : [Code](https://github.com/ashwin-phadke/implementations-and-guides/tree/master/computer_vision_using_opencv)
+* Computer Vision using OpenCV : [Code](https://github.com/ashwin-phadke/implementations-and-guides/tree/master/computer_vision_using_opencv) | [OpenCV Documentation](https://docs.opencv.org/)
   * Access camera : [Python](https://github.com/ashwin-phadke/implementations-and-guides/blob/master/computer_vision_using_opencv/access_camera.py)
-  
+  * Optical Flow example usinf Lucas-Kanade method : [Python](https://github.com/ashwin-phadke/implementations-and-guides/blob/master/computer_vision_using_opencv/optical_flow.py) | [Output](https://github.com/ashwin-phadke/implementations-and-guides/blob/master/computer_vision_using_opencv/output.gif)
+
 * Machine Learning Concepts : 
   * Confusion Matrix : Understanding it the simple way - ongoing [Wiki](https://github.com/ashwin-phadke/implementations-and-guides/wiki/%5BML%5D-Confusion-Matrix-:-Understanding-it-the-simple-way)
