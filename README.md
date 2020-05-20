@@ -27,4 +27,4 @@ More will be added later.
   * Optical Flow example usinf Lucas-Kanade method : [Python](https://github.com/ashwin-phadke/implementations-and-guides/blob/master/computer_vision_using_opencv/optical_flow.py) | [Output](https://github.com/ashwin-phadke/implementations-and-guides/blob/master/computer_vision_using_opencv/output.gif)
 
 * Machine Learning Concepts : 
-  * Confusion Matrix : Understanding it the simple way - ongoing [Wiki](https://github.com/ashwin-phadke/implementations-and-guides/wiki/%5BML%5D-Confusion-Matrix-:-Understanding-it-the-simple-way)
+  * Confusion Matrix : Understanding it the simple way : [Wiki](https://github.com/ashwin-phadke/implementations-and-guides/wiki/%5BML%5D-Confusion-Matrix-:-Understanding-it-the-simple-way)
