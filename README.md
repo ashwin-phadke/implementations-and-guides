@@ -1,5 +1,13 @@
 # Implementations-and-guides
 
+[UPDATE] :
+Most of the wikis that are linked here are now being shifted to the newly hosted site based on [Hugo Academic theme](https://sourcethemes.com/academic/docs/). The new website is under construction and contnuously being update [here](https://ashwin-phadke.github.io) and here is it's [repository](https://github.com/ashwin-phadke/ashwin-phadke.github.io). 
+
+*This repository still hosts all the updated code and wiki and is to be referred for the content related to the wiki and the blog.*
+
+______________________________________________________________________________________________________________________
+
+
 There is an extensive Wiki availale for the code in this repository as well as guides for basics in python and computer vision and explanations of the codes included. These are from the things I have learned from various tutorials online and tried out by adding new functionalities.
 The Wiki also hosts step by step guide to installing common tools required majory for computer vision tasks. The following list is a gist of all such available pages in the wiki.
 More will be added later.
