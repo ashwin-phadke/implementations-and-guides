@@ -4,6 +4,9 @@ There is an extensive Wiki availale for the code in this repository as well as g
 The Wiki also hosts step by step guide to installing common tools required majory for computer vision tasks. The following list is a gist of all such available pages in the wiki.
 More will be added later.
 
+[UPDATE] The Posts from Wiki are also available on the blog now [here](https://ashwin-phadke.github.io)
+
+
 * Installing OpenCV from source on Fedora 31 : [Wiki](https://github.com/ashwin-phadke/implementations-and-guides/wiki#installing-opencv-from-source-on-fedora-31)
 
 * Compiling and executing CPP programs : [Wiki](https://github.com/ashwin-phadke/implementations-and-guides/wiki/Compiling-and-executing-CPP---programs#compiling-and-executing-c-programs)
@@ -28,3 +31,7 @@ More will be added later.
 
 * Machine Learning Concepts : 
   * Confusion Matrix : Understanding it the simple way : [Wiki](https://github.com/ashwin-phadke/implementations-and-guides/wiki/%5BML%5D-Confusion-Matrix-:-Understanding-it-the-simple-way)
+
+* Working with Tensorflow :
+  * Basic neural network with Tensorflow : Ongoing
+  * Building your first neural network using Tensorflow and Keras backed : Scheduled code and blog
