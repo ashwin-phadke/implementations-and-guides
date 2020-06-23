@@ -41,5 +41,5 @@ More will be added later.
   * Confusion Matrix : Understanding it the simple way : [Wiki](https://github.com/ashwin-phadke/implementations-and-guides/wiki/%5BML%5D-Confusion-Matrix-:-Understanding-it-the-simple-way)
 
 * Working with Tensorflow :
-  * Basic neural network with Tensorflow : Ongoing
-  * Building your first neural network using Tensorflow and Keras backed : Scheduled code and blog
+  * Basic neural network with Tensorflow : [Code](https://colab.research.google.com/drive/11dXFxMvuSdqhc2a63tvzJBcZ2IB4ESVL#scrollTo=PqNIM4OAkAZ1)
+  * Build your own layers for deep learning models using TensorFlow 2.0 and Python : [Blog](https://ashwin-phadke.github.io/post/build-layers-tf-python/)  | [Code](https://colab.research.google.com/drive/11dXFxMvuSdqhc2a63tvzJBcZ2IB4ESVL#scrollTo=PqNIM4OAkAZ1)
