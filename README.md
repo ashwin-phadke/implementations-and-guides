@@ -39,4 +39,4 @@ More will be added later.
 |Confusion Matrix : Understanding it the simple way||[Link](https://ashwin-phadke.github.io/post/ml-dl-confusion-matrix/)|||
 |Solve linear equation using TensorFlow|[Repository](https://github.com/ashwin-phadke/implementations-and-guides)||[Code](https://github.com/ashwin-phadke/implementations-and-guides/blob/master/Deep%20Learning%20with%20TensorFlow/build_custom_tf_model.ipynb)|
 |Build your own layers for deep learning models using Python and TensorFlow 2.0||[Link](https://ashwin-phadke.github.io/post/build-layers-tf-python/)|||
-|Introduction to keras tuner with Tensorflow|[Repository](https://github.com/ashwin-phadke/implementations-and-guides/blob/master/Deep%20Learning%20with%20TensorFlow/)|
+|Introduction to keras tuner with Tensorflow|[Repository](https://github.com/ashwin-phadke/implementations-and-guides/blob/master/Deep%20Learning%20with%20TensorFlow/)|[Code](https://github.com/ashwin-phadke/implementations-and-guides/blob/master/Deep%20Learning%20with%20TensorFlow/Introduction_to_Keras_Tuner_with_TensorFlow.ipynb)|[Link](https://ashwin-phadke.github.io/talk/keras-tuner-with-tensorflow/)||
