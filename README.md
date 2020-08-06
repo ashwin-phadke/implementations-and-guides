@@ -1,7 +1,7 @@
 # Implementations-and-guides
 
 [UPDATE] :
-Most of the wikis that are linked here are now being shifted to the newly hosted site based on [Hugo Academic theme](https://sourcethemes.com/academic/docs/). The new website is under construction and contnuously being update [here](https://ashwin-phadke.github.io) and here is it's [repository](https://github.com/ashwin-phadke/ashwin-phadke.github.io). 
+Most of the wikis that are linked here are now being shifted to the newly hosted site based on [Hugo Academic theme](https://sourcethemes.com/academic/docs/). The new website is under construction and contnuously being update [here](https://ashwin-phadke.github.io) and it's [repository](https://github.com/ashwin-phadke/ashwin-phadke.github.io). 
 
 *This repository still hosts all the updated code and wiki and is to be referred for the content related to the wiki and the blog.*
 
