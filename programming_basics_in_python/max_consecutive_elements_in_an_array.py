@@ -1,6 +1,4 @@
-
-
-
+# DO necessary imports
 import math
 import argparse
 import numpy as np
@@ -8,12 +6,13 @@ import numpy as np
 # Function to find maximum consecutive elements in an binary array
 def getMaxConsecutiveElement(arr, number):
 
-    # intitialize count
+    # Initialize count to 0 to count the occurences
     count = 0
 
-    # initialize max
+    # Initialize maximum count to count consecutve occurences, we then set this to 0 is we encounter 0 during the search.
     result = 0
 
+	# Loop over the array
     for i in range(0, number):
 
         # Reset count when 0 is found
