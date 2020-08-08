@@ -4,7 +4,15 @@ import argparse
 import numpy as np
 
 # Function to find maximum consecutive elements in an binary array
+
+
 def getMaxConsecutiveElement(arr, number):
+	"""
+        arr : the array entered by user to find the maximum element from.
+        length_of_array : array length to iterate over to.
+
+		number : length of array to iterate.
+    """
 
     # Initialize count to 0 to count the occurences
     count = 0
@@ -33,6 +41,8 @@ def getMaxConsecutiveElement(arr, number):
 
 if __name__ == "__main__":
 
+	    # Implement argparse to accept command line arguements to choose methods.
+
     parser = argparse.ArgumentParser(
         description='This program finds the maximum occurences of a number in an array')
 
@@ -48,7 +58,7 @@ if __name__ == "__main__":
     out_array = np.asarray(inp_list)
 
     print('The entered array : ', out_array)
-	#out_array = [1 , 0, 1 , 1]
+	# out_array = [1 , 0, 1 , 1]
 	result = getMaxConsecutiveElement(out_array, len(out_array))
  
 
