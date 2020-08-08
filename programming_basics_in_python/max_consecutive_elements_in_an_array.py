@@ -41,11 +41,12 @@ def getMaxConsecutiveElement(arr, number):
 
 if __name__ == "__main__":
 
-	    # Implement argparse to accept command line arguements to choose methods.
+	# Implement argparse to accept command line arguements to choose methods.
 
     parser = argparse.ArgumentParser(
         description='This program finds the maximum occurences of a number in an array')
 
+	# Accept length of array as input in the beginning.
     parser.add_argument('--length', type=int, help='Define length of array')
 
     args = parser.parse_args()
