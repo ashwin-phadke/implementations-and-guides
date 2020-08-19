@@ -17,10 +17,7 @@ More will be added later.
 
 
 * Deep Learning with Tensorflow :
-  * Basic neural network with Tensorflow : Ongoing
-  * Building your first neural network using Tensorflow and Keras backed : Scheduled code and blog
-
-
+  * Loading Tensorflow models using OpenCV : Ongoing
 
 | Title   |      Repository      |  Wiki | Code | App|
 |----------|:-------------:|------:|------:|------:|
