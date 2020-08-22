@@ -17,7 +17,7 @@ More will be added later.
 
 
 * Deep Learning with Tensorflow :
-  * Loading Tensorflow models using OpenCV : Ongoing
+  * Loading Tensorflow models using OpenCV : Completed
 
 | Title   |      Repository      |  Wiki | Code | App|
 |----------|:-------------:|------:|------:|------:|
@@ -39,3 +39,4 @@ More will be added later.
 |Introduction to keras tuner with Tensorflow|[Repository](https://github.com/ashwin-phadke/implementations-and-guides/blob/master/Deep%20Learning%20with%20TensorFlow/)| [Link](https://ashwin-phadke.github.io/talk/keras-tuner-with-tensorflow/)| [Code](https://github.com/ashwin-phadke/implementations-and-guides/blob/master/Deep%20Learning%20with%20TensorFlow/Introduction_to_Keras_Tuner_with_TensorFlow.ipynb)||
 |Sentence Encoding using Tensorflow|[Repository](https://github.com/ashwin-phadke/implementations-and-guides/blob/master/Deep%20Learning%20with%20TensorFlow/)||[Code](https://github.com/ashwin-phadke/implementations-and-guides/blob/master/Deep%20Learning%20with%20TensorFlow/Sentence_Encoding_Using_Tensorflow.ipynb)||
 |Basic Sentiment in Text using Tensorflow|[Repository](https://github.com/ashwin-phadke/implementations-and-guides/blob/master/Deep%20Learning%20with%20TensorFlow/)||[Code](https://github.com/ashwin-phadke/implementations-and-guides/blob/master/Deep%20Learning%20with%20TensorFlow/Basic_sentiment)
+|Loading Tensorflow models using OpenCV DNN function||[Link](https://ashwin-phadke.github.io/post/load-tensorflow-models-using-opencv/)|[Code](https://ashwin-phadke.github.io/opencvtftutorial.zip)
